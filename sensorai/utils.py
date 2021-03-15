@@ -18,3 +18,9 @@ def moving_average(x, window=5):
                 .mean()
                 .values
                 .squeeze())
+
+# Cell
+def _pca(x, k=2):
+    x = x-tf.math.reduce_mean(x,axis=0)
+    S,U,V = tf.linalg.svd(tf.transpose(x))
+    return tf.matmul(x,U[:,:k])
