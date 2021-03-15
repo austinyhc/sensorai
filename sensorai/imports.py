@@ -12,7 +12,7 @@ from multiprocessing import Lock,Process,Queue,queues
 from datetime import datetime
 from contextlib import redirect_stdout,contextmanager
 from collections.abc import Iterable,Iterator,Generator,Sequence
-from typing import Union,Optional
+from typing import Union,Optional,List
 from types import SimpleNamespace
 from pathlib import Path
 from collections import OrderedDict,defaultdict,Counter,namedtuple

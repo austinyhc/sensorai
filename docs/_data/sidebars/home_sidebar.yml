@@ -12,6 +12,21 @@ entries:
     - output: web,pdf
       title: TensorFlow Core
       url: core.html
+    - output: web,pdf
+      title: Utility Belts
+      url: utils.html
+    - output: web,pdf
+      title: Layers
+      url: layers.html
+    - output: web,pdf
+      title: Data core
+      url: data.core.html
+    - output: web,pdf
+      title: Learner, Metrics, and Basic Callbacks
+      url: learner.html
+    - output: web,pdf
+      title: waveai applications - quick tutorial
+      url: quick_start.html
     output: web
     title: sensorai
   output: web

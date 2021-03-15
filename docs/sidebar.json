@@ -1,6 +1,11 @@
 {
   "sensorai": {
     "Overview": "/",
-    "TensorFlow Core": "core.html"
+    "TensorFlow Core": "core.html",
+    "Utility Belts": "utils.html",
+    "Layers": "layers.html",
+    "Data core": "data.core.html",
+    "Learner, Metrics, and Basic Callbacks": "learner.html",
+    "waveai applications - quick tutorial": "quick_start.html"
   }
 }

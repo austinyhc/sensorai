@@ -4,9 +4,21 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"subplots": "00_core.ipynb",
          "show_image": "00_core.ipynb",
-         "set_seed": "00_core.ipynb"}
+         "show_titled_image": "00_core.ipynb",
+         "show_images": "00_core.ipynb",
+         "set_seed": "00_core.ipynb",
+         "get_random_states": "00_core.ipynb",
+         "set_random_states": "00_core.ipynb",
+         "moving_average": "01_utils.ipynb",
+         "AdaptiveConcatPool1d": "02_layers.ipynb",
+         "AdaptiveConcatPool2d": "02_layers.ipynb",
+         "PoolType": "02_layers.ipynb",
+         "adaptive_pool": "02_layers.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "utils.py",
+           "layers.py",
+           "learner.py"]
 
 doc_url = "https://austinyhc.github.io/sensorai/"
 
