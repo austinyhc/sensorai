@@ -8,6 +8,14 @@ from .imports import *
 from .tf_imports import *
 
 # Cell
+if tf.test.is_built_with_cuda():
+    if tf.test.is_built_with_gpu_support():
+        physical_devices = tf.config.list_physical_devices('GPU')
+        if physical_devices:
+            def_gpu = int(os.environ.get('DEFAULT_GPU') or 0)
+            tf.config.set_visible_devices(physical_devices[def_gpu], 'GPU')
+
+# Cell
 @delegates(plt.subplots, keep=True)
 def subplots(nrows=1, ncols=1, figsize=None, imsize=3, suptitle=None, **kwargs):
     if figsize is None:
