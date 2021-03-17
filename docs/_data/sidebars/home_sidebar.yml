@@ -19,9 +19,6 @@ entries:
       title: Layers
       url: layers.html
     - output: web,pdf
-      title: Data core
-      url: data.core.html
-    - output: web,pdf
       title: Learner, Metrics, and Basic Callbacks
       url: learner.html
     - output: web,pdf
